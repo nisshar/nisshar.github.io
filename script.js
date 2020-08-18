@@ -58,7 +58,7 @@ let chart = new Chart(ctx, {
 });
 //document.getElementById('c').width = 200;
 
-let n = 5, speed = 5;
+let n = 15, speed = 8;
 let dataset = chart.data.datasets[0];
 // let slider = document.getElementById('speed');
 // slider.oninput = function() {
