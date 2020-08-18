@@ -1,14 +1,14 @@
-arr = [65,87,67,70,56];
+arr = [65,87,67,70,56,51,64,46,95,46,12,32,21,51,55];
 
 let ctx = document.getElementById('myChart').getContext('2d');
 let chart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['A[0]', 'A[1]', 'A[2]', 'A[3]', 'A[4]'],
+        labels: ['A[0]', 'A[1]', 'A[2]', 'A[3]', 'A[4]','A[5]', 'A[6]', 'A[2]', 'A[3]', 'A[4]','A[0]', 'A[1]', 'A[2]', 'A[3]', 'A[4]'],
         datasets: [{
             label: '',
             data: arr,
-            backgroundColor: ['blue','blue','blue','blue','blue'],
+            backgroundColor: ['blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue'],
             borderColor: 'black', 
             hoverBackgroundColor: 'black',
             barThickness: 2
