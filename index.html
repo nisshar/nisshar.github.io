@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title></title>
+</head>
+<body>
+    <nav>
+        <label class="logo">AlgoVisualizer</label>
+        <button id = "btn" onclick = "generateRandom()"> Random </button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button id = "btn" onclick = "BubbleSort()"> Bubble Sort </button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button id = "btn" onclick = "MergeSort()"> Merge Sort </button>
+    </nav>
+    <div class="card-body" style="align-self: center; position:center; top:60px; left:10px; width:800px; height:800px;">
+        <canvas id="myChart" width="200" height="200" style="border:1px solid"></canvas>  
+    </div>
+    <div class="bar-item"></div>
+    <script src = "https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src = "script.js"></script>
+    <script src = "MergeSort.js"></script>
+</body>
+</html>
